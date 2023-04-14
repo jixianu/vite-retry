@@ -1,0 +1,30 @@
+{
+    "name": "assets-retry-vite-plugin",
+    "version": "1.0.2",
+    "description": "静态资源重试vite-plugin",
+    "main": "./src/index.js",
+    "scripts": {
+        "release": "npm publish"
+    },
+    "peerDependencies": {
+        "node": ">=12.22.0",
+        "vite": ">=2.0.0"
+    },
+    "author": "wangxuan@lzzg365.com",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^17.0.21",
+        "esbuild": "^0.14.27",
+        "vite": "^2.7.6"
+    },
+    "dependencies": {
+        "uglify-js": "^3.17.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "publishConfig": {
+        "registry": "https://verdaccio.qn76.cn/"
+    }
+}
